@@ -6,7 +6,7 @@
   "author": "Andrea Brancaleoni <null@gmx.it>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/thyphon/aparser"
+    "url": "http://github.com/thyphon/aparser"
   },
   "keyword": [
     "async",
