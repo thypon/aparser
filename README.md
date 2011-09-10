@@ -16,7 +16,7 @@ var puts = require('sys').puts
 /* aparser object it's an instance of EventEmitter */
 
 /* example with modifier, 
-   if the string after -g it's another modifier the -g itself it's returned
+   if the string after -g it's another modifier the -g itself it's turned in a argument without minus symbol
 */
 aparser.on('-g', function(arg, index) {
   puts('the string with -g modifier is '+arg);  
@@ -34,7 +34,7 @@ aparser.on('argument', function(arg, index) {
   puts('the '+index+' argument is'+ arg);
 });
 
-aparser.parser(process.argv);
+parser.parser(process.argv);
 ```
 
 then executing it
