@@ -1,2 +1,22 @@
 {
-  name: 
+  name: 'aparser',
+  preferGlobal: 'true',
+  description: 'An async ARGV parser',
+  version: '0.0.1',
+  author: 'Andrea Brancaleoni <null@gmx.it>',
+  repository: {
+    type: 'git',
+    url: 'git://github.com/thyphon/aparser'
+  },
+  keyword: [
+    'async',
+    'argv',
+    'cli',
+    'parser',
+    'prompt'
+  ],
+  main: './lib/async.js',
+  engines: {
+    node: '>= 0.4.x'
+  }
+}
