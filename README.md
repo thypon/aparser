@@ -13,8 +13,6 @@ An async ARGV parser
 var aparser = require('aparser');
 var puts = require('sys').puts
 
-aparser(process.argv);
-
 /* aparser object it's an instance of EventEmitter */
 
 /* example with modifier, 
@@ -35,6 +33,8 @@ aparser.on('start', function(arg, index) {
 aparser.on('argument', function(arg, index) {
   puts('the '+index+' argument is'+ arg);
 });
+
+aparser.parser(process.argv);
 ```
 
 then executing it
