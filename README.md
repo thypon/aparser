@@ -34,7 +34,7 @@ aparser.on('argument', function(arg, index) {
   puts('the '+index+' argument is'+ arg);
 });
 
-parser.parser(process.argv);
+aparser.parser(process.argv);
 ```
 
 then executing it
