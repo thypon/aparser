@@ -11,7 +11,7 @@ An async ARGV parser
 
 ```javascript
 var aparser = require('aparser');
-var puts = require('sys').puts
+var puts = require('util').puts
 
 /* aparser object it's an instance of EventEmitter */
 
