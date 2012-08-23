@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/thypon/aparser.png)](http://travis-ci.org/thypon/aparser)
 # Aparser
 
 An async ARGV parser
